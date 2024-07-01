@@ -25,3 +25,11 @@ try:
 
 except ValueError:
   print('Favor digitar um valor em números. ')
+  
+
+
+  
+
+
+
+
