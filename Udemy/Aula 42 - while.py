@@ -24,3 +24,16 @@ while i < len(frase): # enquanto i for menor que o tamanho da frase, faça:
 
 # Mostrar a quantidade de letras
 print(f'A frase possui {quantidade_de_letras} letras.') # imprima 'A frase possui {quantidade_de_letras} letras.'
+
+'''
+______________________________________________________________________________________
+'''
+
+texto = 'Python' # string
+
+i = 0 # int
+
+while i < lent(texto): # enquanto i for menor que o tamanho da string, faça:
+  print(texto[i], i) # imprima texto[i] e i
+  i += 1 # i recebe i + 1
+
