@@ -12,10 +12,10 @@ quantidade_de_letras = 0 # int
 
 # Criar um laço de repetição para percorrer a frase
 while i < len(frase): # enquanto i for menor que o tamanho da frase, faça:
-
+  
 # Criar uma condição para verificar se o caractere é uma letra
 # Se for uma letra, incrementar a quantidade de letras
-
+  
   if frase[i].isalpha(): # se frase[i] for uma letra, faça:
     quantidade_de_letras += 1 # quantidade_de_letras recebe quantidade_de_letras + 1
 
