@@ -7,9 +7,9 @@
 
 # Exemplos:
 #
-try:
-  valor = int(input('Digite o valor do seu produto: '))
-  print(valor)
+try: # tente:
+  valor = int(input('Digite o valor do seu produto: ')) # Digite o valor do seu produto: 10
+  print(valor) # 10
 
-except ValueError:
-  print('Favor digitar um valor em números. ')
+except ValueError: # se ValueError for lançado, faça:
+  print('Favor digitar um valor em números. ') # Favor digitar um valor em números.

@@ -30,8 +30,8 @@ print(mensagem.lower()) # eu adoro comida caseira
 # % - porcentagem
  
 
-nome = 'Luis'
-preço = 100.95897643
+nome = 'Luis' # string
+preço = 100.95897643 # float
 variavel = '%s, o preço é R$ %.2f' % (nome, preço)'
 print(variavel) # Luis, o preço é R$ 100.96
 

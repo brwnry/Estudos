@@ -17,11 +17,11 @@ print(area)
 #
 # Exemplo:
 #
-if carro == 'audi':
-   print('Tem certeza que não prefere outro?')
- elif carro == 'bmw':
-   print('Tem certeza que não prefere outro?')
- elif carro == 'ferrari':
-   print('Tem certeza que não prefere outro?')
- else:
-   print('Não sei, tente outro.')
+if carro == 'audi': # Se carro for igual a 'audi', faça:
+   print('Tem certeza que não prefere outro?') # Tem certeza que não prefere outro?
+ elif carro == 'bmw': # Se carro for igual a 'bmw', faça:
+   print('Tem certeza que não prefere outro?') # Tem certeza que não prefere outro?
+ elif carro == 'ferrari': # Se carro for igual a 'ferrari', faça:
+   print('Tem certeza que não prefere outro?') # Tem certeza que não prefere outro?
+ else: # Se não for nenhum dos anteriores, faça:
+   print('Não sei, tente outro.') # Não sei, tente outro.
