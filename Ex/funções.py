@@ -7,7 +7,6 @@
 def calcula_media(nota1,nota2):
     return (nota1 + nota2) / 2
 
-
 nota_1 = float(input('Informe a primeira nota: '))
 nota_2 = float(input('Informe a segunda nota: '))
 
