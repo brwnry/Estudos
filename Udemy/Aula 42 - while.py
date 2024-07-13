@@ -33,7 +33,7 @@ texto = 'Python' # string
 
 i = 0 # int
 
-while i < lent(texto): # enquanto i for menor que o tamanho da string, faça:
+while i < len(texto): # enquanto i for menor que o tamanho da string, faça:
   print(texto[i], i) # imprima texto[i] e i
   i += 1 # i recebe i + 1
 

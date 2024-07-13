@@ -8,7 +8,7 @@
 texto = 'Python' # string
 iterador = iter(texto) # iterador recebe o iterador da string
 
-while true: # enquanto verdadeiro, faça:
+while True: # enquanto verdadeiro, faça:
   try: # tente:
     letra = next(iterador) # letra recebe o próximo valor do iterador
     print(letra) # imprima letra
