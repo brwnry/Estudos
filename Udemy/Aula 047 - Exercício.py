@@ -18,9 +18,9 @@ Primeiramente, definimos as variáveis de armazenamento das informações.
 3. O número de tentativas.
 '''
 
-palavra_secreta = 'python' # string
-letras_acertadas = '' # string
-tentativas = 0 # int
+palavra_secreta = 'python' # A palavraecreta
+letras_acertadas = '' # Uma variável vazia para armazenar as letras que o usuário acertou
+tentativas = 0 # Meramente um contador, para ficar marcando
 
 '''
 Agora, vamos criar um loop que irá repetir enquanto o usuário não acertar a palavra secreta.

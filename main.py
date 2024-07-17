@@ -1,3 +1,3 @@
-lista = [123, True, 'Python', 1.0, []]
-lista.append(456)
-print(lista)
+nomes = ['Maria', 'João', 'José'] # nomes = ['Maria', 'João', 'José']
+for indice, nome in enumerate(nomes): # Para cada índice e nome na lista de nomes, faça:
+    print(indice, nome)
