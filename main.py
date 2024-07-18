@@ -1,3 +1,22 @@
-nomes = ['Maria', 'João', 'José'] # nomes = ['Maria', 'João', 'José']
-for indice, nome in enumerate(nomes): # Para cada índice e nome na lista de nomes, faça:
-    print(indice, nome)
+lista_de_compras = []
+
+while True:
+    print('Selecione uma das opções abaixo:')
+    print('[i]nserir  [a]pagar  [l]istar')
+
+    opcao = input('Opção: ')
+  
+    if opcao == 'i':
+        item = input('Item: ')
+        lista_de_compras.append(item)
+
+    elif opcao == 'a':
+        item = input('item: ')
+        lista_de_compras.remove(item)
+
+    elif opcao == 'l':
+        for indice, item in enumerate(lista_de_compras, start=1):
+            print(indice, item)
+
+    else:
+        print('Opção inválida')
