@@ -1,22 +1,11 @@
-lista_de_compras = []
+# 'while' & 'else'
 
-while True:
-    print('Selecione uma das opções abaixo:')
-    print('[i]nserir  [a]pagar  [l]istar')
+string = 'Valor qualquer' # str
 
-    opcao = input('Opção: ')
-  
-    if opcao == 'i':
-        item = input('Item: ')
-        lista_de_compras.append(item)
-
-    elif opcao == 'a':
-        item = input('item: ')
-        lista_de_compras.remove(item)
-
-    elif opcao == 'l':
-        for indice, item in enumerate(lista_de_compras, start=1):
-            print(indice, item)
-
-    else:
-        print('Opção inválida')
+i = 0 # int
+while i < len(string): # enquanto i for menor que o tamanho da string, faça:
+  letra = string[i] # letra recebe string[i]
+  print(letra ) # imprima letra
+  i += 1 # i recebe i + 1
+else: # se não, faça:
+  print('Fim da string') # imprima 'Fim da string'
