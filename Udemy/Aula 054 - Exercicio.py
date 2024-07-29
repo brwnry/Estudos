@@ -8,7 +8,7 @@
 # Selecione uma das opções abaixo:
 # [i]nserir [a]pagar [l]istar
 
-# Lista versão 1
+# Lista Bruno
 
 import os # 
 
@@ -57,7 +57,7 @@ while True:
         print('Escolha inválida')
         os.system('clear')
 
-# Lista versão 2
+# Lista AI
 
 import os
 
