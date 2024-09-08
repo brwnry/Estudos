@@ -1,6 +1,11 @@
+'''
+Exemplo:
+Bruno
+'''
+
 # Primeiro dígito verificador do CPF:
 
-cpf = '00558758150'                         # Números do CPF
+cpf = '74682489070'                         # Números do CPF
 lista_num = cpf[:9]                         # Lista dos 9 primeiros números do CPF
 contador = 10                               # Contador regressivo
 soma = 0                                    # Zera a soma
@@ -16,7 +21,6 @@ digito1 = digito1 if digito1 <= 9 else 0    # Se o digito1 for menor ou igual a 
 
 # Segundo dígito verificador do CPF:
 
-lista_num = cpf[:10]
 contador = 11                               # Contador regressivo
 soma = 0                                    # Zera a soma
 

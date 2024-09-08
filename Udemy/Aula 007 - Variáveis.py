@@ -4,16 +4,21 @@
 # O sinal de = é usado para atribuir um valor a uma variável.
 # Variáveis podem ser atribuídas a outras variáveis.
 
-nome = "João" # Variável do tipo string
-idade = 30 # Variável do tipo int
-altura = 1.75 # Variável do tipo float
-maioridade = idade > 18 # Variável do tipo bool
+nome = "João"                 # Variável do tipo string
+idade = 30                    # Variável do tipo int
+altura = 1.75                 # Variável do tipo float
+maioridade = idade > 18       # Variável do tipo bool
 
-print(nome) # João
-print(idade) # 30
-print(altura) # 1.75
-print(maioridade) # True
+print(nome)                   # João
+print(idade)                  # 30
+print(altura)                 # 1.75
+print(maioridade)             # True
 
-soma = 2 + 3 # Variável do tipo int
-print(soma) # 5
+soma = 2 + 3                  # Variável do tipo int
+print(soma)                   # 5
 
+soma = soma + 1               # Variável do tipo int
+print(soma)                   # 6
+
+soma = soma + 1               # Variável do tipo int
+print(soma)                   # 7
