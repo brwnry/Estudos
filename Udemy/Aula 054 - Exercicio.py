@@ -8,99 +8,99 @@
 # Selecione uma das opções abaixo:
 # [i]nserir [a]pagar [l]istar
 
-# Lista Bruno
+# Lista versão 1
 
-import os                                                         # Importa a biblioteca os
+import os
 
-lista_de_compras = []                                             # Cria uma lista vazia
+lista_de_compras = []
 
-while True:                                                       # Loop infinito
-    print('Escolha um dos itens abaixo: ')                        # Imprime na tela
-    print('[i]nserir    [a]pagar    [l]istar   [s]air')           # Imprime na tela
+while True:
+    print('Escolha um dos itens abaixo: ')
+    print('[i]nserir    [a]pagar    [l]istar   [s]air')
 
-    opcao = input('Opção: ')                                      # Recebe a opção do usuário
+    opcao = input('Opção: ')
 
-    if opcao == 'i':                                              # Se a opção for 'i'
-        os.system('clear')                                        # Limpa a tela
+    if opcao == 'i':
+        os.system('clear')
         
-        item = input('Item: ')                                    # Recebe o item    
-        lista_de_compras.append(item)                             # Adiciona o item na lista de compras    
-        print(f'O item {item} foi adicionado à lista!')           # Imprime na tela
+        item = input('Item: ')
+        lista_de_compras.append(item)
+        print(f'O item {item} foi adicionado à lista!')
     
-    elif opcao == 'a' and len(lista_de_compras) > 0:              # Se a opção for 'a' e a lista não estiver vazia
-        os.system('clear')                                        # Limpa a tela
+    elif opcao == 'a' and len(lista_de_compras) > 0:
+        os.system('clear')
         
-        try:                                                      # Tenta executar o código abaixo
-            item = input('Item: ')                                # Recebe o item
-            lista_de_compras.remove(item)                         # Remove o item da lista de compras    
-            print(f'O item {item} foi removido da lista!')        # Imprime na tela
+        try:
+            item = input('Item: ')
+            lista_de_compras.remove(item)        
+            print(f'O item {item} foi removido da lista!')
     
-        except ValueError:                                        # Se ocorrer um erro de valor
-            print('A lista já está vazia!')                       # Imprime na tela
-            continue                                              # Continua o loop
+        except ValueError:
+            print('A lista já está vazia!')
+            continue
     
-    elif opcao == 'l':                                            # Se a opção for 'l'
-        os.system('clear')                                        # Limpa a tela
+    elif opcao == 'l':
+        os.system('clear')
         
-        if len(lista_de_compras) == 0:                            # Se a lista estiver vazia
-            print('Sua lista está vazia!')                        # Imprime na tela
+        if len(lista_de_compras) == 0:
+            print('Sua lista está vazia!')
             
-        else:                                                     # Se a lista não estiver vazia
-            print('Ok, aqui está a sua lista de compras!')        # Imprime na tela
-        for indice, item in enumerate(lista_de_compras, start=1): # Para cada índice e item na lista de compras
-            print(indice, item)                                   # Imprime na tela
+        else:
+            print('Ok, aqui está a sua lista de compras!')
+        for indice, item in enumerate(lista_de_compras, start=1):
+            print(indice, item)
 
-    elif opcao == 's':                                            # Se a opção for 's'
-        break                                                     # Sai do loop
+    elif opcao == 's':
+        break
 
-    else:                                                         # Se a opção não for nenhuma das opções acima
-        print('Escolha inválida')                                 # Imprime na tela
-        os.system('clear')                                        # Limpa a tela
+    else:
+        print('Escolha inválida')
+        os.system('clear')
 
-# Lista AI
+# Lista versão 2
 
-import os                                                         # Importa a biblioteca os
+import os
 
-lista_de_compras = []                                             # Cria uma lista vazia
+lista_de_compras = []
 
-def inserir_item():                                               # Função para inserir um item
-    os.system('clear')                                            # Limpa a tela
-    item = input('Item: ')                                        # Recebe o item
-    lista_de_compras.append(item)                                 # Adiciona o item na lista de compras
-    print(f'O item {item} foi adicionado à lista!')               # Imprime na tela
+def inserir_item():
+    os.system('clear')
+    item = input('Item: ')
+    lista_de_compras.append(item)
+    print(f'O item {item} foi adicionado à lista!')
 
-def apagar_item():                                                # Função para apagar um item
-    os.system('clear')                                            # Limpa a tela
-    item = input('Item: ')                                        # Recebe o item
-    if item in lista_de_compras:                                  # Se o item estiver na lista de compras
-        lista_de_compras.remove(item)                             # Remove o item da lista de compras
-        print(f'O item {item} foi removido da lista!')            # Imprime na tela
-    else:                                                         # Se o item não estiver na lista de compras
-        print(f'O item {item} não está na lista!')                # Imprime na tela
+def apagar_item():
+    os.system('clear')
+    item = input('Item: ')
+    if item in lista_de_compras:
+        lista_de_compras.remove(item)
+        print(f'O item {item} foi removido da lista!')
+    else:
+        print(f'O item {item} não está na lista!')
 
-def listar_itens():                                               # Função para listar os itens
-    os.system('clear')                                            # Limpa a tela
-    if len(lista_de_compras) == 0:                                # Se a lista estiver vazia
-        print('Sua lista está vazia!')                            # Imprime na tela
-    else:                                                         # Se a lista não estiver vazia
-        print('Ok, aqui está a sua lista de compras!')            # Imprime na tela
-        for indice, item in enumerate(lista_de_compras, start=1): # Para cada índice e item na lista de compras
-            print(indice, item)                                   # Imprime na tela o índice e o item
+def listar_itens():
+    os.system('clear')
+    if len(lista_de_compras) == 0:
+        print('Sua lista está vazia!')
+    else:
+        print('Ok, aqui está a sua lista de compras!')
+        for indice, item in enumerate(lista_de_compras, start=1):
+            print(indice, item)
 
-while True:                                                       # Loop infinito
-    print('Escolha um dos itens abaixo: ')                        # Imprime na tela
-    print('[i]nserir    [a]pagar    [l]istar   [s]air')           # Imprime na tela
+while True:
+    print('Escolha um dos itens abaixo: ')
+    print('[i]nserir    [a]pagar    [l]istar   [s]air')
 
-    opcao = input('Opção: ')                                      # Recebe a opção do usuário
+    opcao = input('Opção: ')
 
-    if opcao == 'i':                                              # Se a opção for 'i'
-        inserir_item()                                            # Chama a função inserir_item
-    elif opcao == 'a':                                            # Se a opção for 'a'
-        apagar_item()                                             # Chama a função apagar_item
-    elif opcao == 'l':                                            # Se a opção for 'l'
-        listar_itens()                                            # Chama a função listar_itens
-    elif opcao == 's':                                            # Se a opção for 's'
-        break                                                     # Sai do loop
-    else:                                                         # Se a opção não for nenhuma das opções acima
-        print('Escolha inválida')                                 # Imprime na tela
-        os.system('clear')                                        # Limpa a tela
+    if opcao == 'i':
+        inserir_item()
+    elif opcao == 'a':
+        apagar_item()
+    elif opcao == 'l':
+        listar_itens()
+    elif opcao == 's':
+        break
+    else:
+        print('Escolha inválida')
+        os.system('clear')
