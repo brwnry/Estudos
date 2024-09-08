@@ -14,7 +14,7 @@ salas = [
 ]
 
 # Exemplo 1:
-a, b, *_, y, z = lista # índice a é o primeiro elemento, b é o segundo elemento, *_ é o restante, y é o penúltimo elemento, z é o último elemento
+a, b, *_, y, z = lista                                                         # índice a é o primeiro elemento, b é o segundo elemento, *_ é o restante, y é o penúltimo elemento, z é o último elemento
 print(a, z) # Maria Eduarda
 
 # Exemplo 2:
