@@ -24,6 +24,7 @@ try:                                                                    # tente:
   print(f'O número é {resultado}')                                      # O número é par
 except ValueError:                                                      # se ValueError for lançado, faça:
   print('Não é um número inteiro.')                                     # Não é um número inteiro.
+
 '''
 Faça um programa que pergunte a hora ao usuário e, basenado-se no horário descrito, exiba a saudação apropriada. 
 Ex. Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
@@ -54,11 +55,13 @@ elif 12 <= hora < 18:                                                   # Se hor
   print("Boa tarde!")                                                   # imprima 'Boa tarde!'
 else:                                                                   # Se não, faça:
   print("Boa noite!")                                                   # imprima 'Boa noite!'
+  
 '''
 Faça um programa que peça o primeiro nome do usuário. 
 Se o nome tiver 4 letras ou menos escreva "seu nome é curto"; se tiver entre 5 e 6 letras,
 escreva "seu nome é normal"; maior que 6 escreva "seu nome é muito grande".
 '''
+
 # Bruno:
 
 try:                                                                    # tente:

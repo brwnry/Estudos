@@ -16,16 +16,16 @@
 # - - não preenche espaços em branco
 # !r - exibe a string em modo de representação de código
 # !s - exibe a string em modo de representação de string
-#!a - exibe a string em modo de representação de string com caracteres de controle
+# !a - exibe a string em modo de representação de string com caracteres de controle
 
-variavel = 'ABCD'
+variavel = 'ABCD'                               # variável variavel recebe ABCD
 
-print(f'{variavel}') # ABCD
-print(f'{variavel: >10}') # ______ABCD
-print(f'{variavel: <10}') # ABCD______
-print(f'{variavel: ^10}') #  ___ABCD___
-print(f'{variavel: =^10}') # ====ABCD====
-print(f'{1000.4873648123746: >10.2f}') # 1000.49
-print(f'O hexadecimal de 1500 é {1500:08X}') # 0x0E8
-print(f'O octal de 1500 é {1500:08o}') # 0o1776
-print(f'O binário de 1500 é {1500:08b}') # 0b111110100
+print(f'{variavel}')                            # Exibe 'ABCD'
+print(f'{variavel: >10}')                       # Exibe 'ABCD    '
+print(f'{variavel: <10}')                       # Exibe '    ABCD'
+print(f'{variavel: ^10}')                       # Exibe '  ABCD  '
+print(f'{variavel: =^10}')                      # Exibe '==ABCD==='
+print(f'{1000.4873648123746: >10.2f}')          # Exibe '1000.49'
+print(f'O hexadecimal de 1500 é {1500:08X}')    # Exibe '0x0E0'
+print(f'O octal de 1500 é {1500:08o}')          # Exibe '0o1776'
+print(f'O binário de 1500 é {1500:08b}')        # Exibe '0b10011100'

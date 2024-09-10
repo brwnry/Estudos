@@ -5,26 +5,26 @@
 #
 # Exemplos:
 #
-if 10 > 5: # True
-     print('10 é maior que 5') # 10 é maior que 5
+if 10 > 5:                                         # Se 10 for maior que 5
+     print('10 é maior que 5')                     # Exibe '10 é maior que 5'
 
-if 10 < 5: # False
-     print('10 é menor que 5') # Não será executado
+if 10 < 5:                                         # Se 10 for menor que 5
+     print('10 é menor que 5')                     # Exibe '10 é menor que 5'
 
-if 10 > 5: # True
-     print('10 é maior que 5') # 10 é maior que 5
+if 10 > 5:                                         # Se 10 for maior que 5
+     print('10 é maior que 5')                     # Exibe '10 é maior que 5'
   
-else: # Não será executado
-     print('10 não é maior que 5') # 10 não é maior que 5
+else:                                              # Se não
+     print('10 não é maior que 5')                 # Exibe '10 não é maior que 5'
 
 
-entrada = input('Digite entrar ou sair ') # Digite entrar ou sair sair
+entrada = input('Digite entrar ou sair ')          # Digite entrar ou sair sair
 
-if entrada == 'entrar': # False
-    print('Você entrou no sistema') # Não será executado
+if entrada == 'entrar':                            # Se entrada for igual a entrar
+    print('Você entrou no sistema')                # Exibe 'Você entrou no sistema'
 
-elif entrada == 'sair': # True
-    print('Você saiu do sistema') # Você saiu do sistema
+elif entrada == 'sair':                            # Se entrada for igual a sair
+    print('Você saiu do sistema')                  # Exibe 'Você saiu do sistema'
 
-else: # Não será executado
-    print('Você não digitou entrar ou sair') # Você não digitou entrar ou sair
+else:                                              # Se não     
+    print('Você não digitou entrar ou sair')       # Exibe 'Você não digitou entrar ou sair'

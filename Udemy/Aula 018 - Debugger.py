@@ -3,10 +3,10 @@
 # 
 # Exemplo:
 #
-x = 10
-y = 5
+x = 10                          # x recebe 10
+y = 5                           # y recebe 5
 #
-if x > y:
-  print('x é maior que y')
+if x > y:                       # Se x for maior que y
+  print('x é maior que y')      # Exibe 'x é maior que y'
 #
 # O debugger pode ser acessado pelo botão de ferramentas no topo da página.

@@ -5,27 +5,27 @@
 
 # Exemplo:
 
-condição1 = True
-condição2 = True
-condição3 = True
-condição4 = True
+condição1 = True                                        # variável condição1 recebe True
+condição2 = True                                        # variável condição2 recebe True
+condição3 = True                                        # variável condição3 recebe True
+condição4 = True                                        # variável condição4 recebe True
 
-if condição1 and condição2 and condição3 and condição4: # True
-   print('Todas as condições são verdadeiras') # Todas as condições são verdadeiras
+if condição1 and condição2 and condição3 and condição4: # Se todas as condições forem verdadeiras
+   print('Todas as condições são verdadeiras')          # Exibe 'Todas as condições são verdadeiras'
 
-else:
-   print('Pelo menos uma condição é falsa') # Pelo menos uma condição é falsa
+else:                                                   # Se não
+   print('Pelo menos uma condição é falsa')             # Exibe 'Pelo menos uma condição é falsa'
 
 
 # Exemplo:
 
-entrada = input('[E]ntrar [S]air: ') # E ou S
-senha = input('Senha:')
+entrada = input('[E]ntrar [S]air: ')                    # Digite entrar ou sair sair
+senha = input('Senha:')                                 # Digite a senha: 1234
 
-senha_permitida = '123456'
-if entrada == 'E' and senha == senha_permitida: # True
-   print('Você entrou no sistema') # Você entrou no sistema
+senha_permitida = '123456'                              # variável senha_permitida recebe 123456
+if entrada == 'E' and senha == senha_permitida:         # Se entrada for igual a E e senha for igual a senha_permitida
+   print('Você entrou no sistema')                      # Exibe 'Você entrou no sistema'
 
-else: # False
-   print('Você saiu do sistema') # Você saiu do sistema
+else:                                                   # Se não
+   print('Você saiu do sistema')                        # Exibe 'Você saiu do sistema'
    

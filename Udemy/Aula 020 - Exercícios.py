@@ -1,14 +1,14 @@
 # Exercício de comparação
 
-num1 = input('Digite um valor: ') # Digite um valor: 10
-num2 = input('Digite outro valor: ') # Digite outro valor: 5
+num1 = input('Digite um valor: ')     # num1 recebe o valor digitado pelo usuário
+num2 = input('Digite outro valor: ')  # num2 recebe o valor digitado pelo usuário
 
-if num1 > num2: # False
-  print(f'{num1} é maior que {num2}') # Não será executado
+if num1 > num2:                       # Se num1 for maior que num2
+  print(f'{num1} é maior que {num2}') # Exibe num1 é maior que num2
 
-elif num1 < num2: # True
-  print(f'{num1} é menor que {num2}') # 10 é menor que 5
+elif num1 < num2:                     # Se num1 for menor que num2
+  print(f'{num1} é menor que {num2}') # Exibe num1 é menor que num2
 
-else: # Não será executado
-  print(f'{num1} é igual a {num2}') # 10 é igual a 5
+else:                                 # Se não
+  print(f'{num1} é igual a {num2}')   # Exibe num1 é igual a num2
 

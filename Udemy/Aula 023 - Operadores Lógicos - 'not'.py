@@ -9,25 +9,25 @@
 #
 # # Exemplo:
 #
-condição = True
+condição = True                             # variável condição recebe True
 #
-if not condição: # False
-   print('A condição é verdadeira') # A condição é verdadeira
+if not condição:                            # Se condição for falsa
+   print('A condição é verdadeira')         # Exibe 'A condição é verdadeira'
 
-else: # True
-   print('A condição é falsa') # A condição é falsa
+else:                                       # Se não
+   print('A condição é falsa')              # Exibe 'A condição é falsa'
 
 # Exemplo:
 
-entrada = input('[E]ntrar [S]air: ') # E ou S
-senha = input('Senha:')
+entrada = input('[E]ntrar [S]air: ')        # Digite entrar ou sair sair
+senha = input('Senha:')                     # Digite a senha: 1234
 
-if not senha: # False
-   print('Você não digitou a senha')
+if not senha:                               # Se senha não for digitada
+   print('Você não digitou a senha')        # Exibe 'Você não digitou a senha'
 
-elif entrada == 'E' and senha == '123456': # True
-   print('Você entrou no sistema')
+elif entrada == 'E' and senha == '123456':  # Se entrada for igual a E e senha for igual a 123456
+   print('Você entrou no sistema')          # Exibe 'Você entrou no sistema'
 
-else: # False
-   print('Você saiu do sistema')
+else:                                       # Se não
+   print('Você saiu do sistema')            # Exibe 'Você saiu do sistema'
 
