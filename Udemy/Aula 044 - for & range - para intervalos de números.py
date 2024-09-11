@@ -2,9 +2,17 @@
 
 # range serve para criar um intervalo de números 
 
-# Criar um laço de repetição para percorrer um intervalo de n
-numeros = range(1, 11, 2)  # range(inicio, fim, passo)
+# Criar um laço de repetição para percorrer um intervalo de números
+# range -> range(star, stop, step)
 
-for numero in numeros:  # para cada número no intervalo de 1 a 10, faça:
-  print(numero)  # imprima número
+numeros = range(1, 11, 2)   # variável numeros recebe um intervalo de 1 a 11, com passo de 2
 
+for numero in numeros:      # para cada número na variável numeros, faça:
+  print(numero)             # imprima número
+
+# Resultado:
+# 1
+# 3
+# 5
+# 7
+# 9

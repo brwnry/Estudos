@@ -5,18 +5,33 @@
 # next() -> retorna o próximo item do iterador
 # iter() -> retorna um iterador
 
-texto = 'Python' # string
-iterador = iter(texto) # iterador recebe o iterador da string
+texto = 'Python'            # variável texto recebe 'Python'
+iterador = iter(texto)      # variável iterador recebe um iterador
 
-while True: # enquanto verdadeiro, faça:
-  try: # tente:
-    letra = next(iterador) # letra recebe o próximo valor do iterador
-    print(letra) # imprima letra
-  except StopIteration: # se StopIteration for lançado, faça:
-    break # pare
+while True:                 # enquanto True, faça:
+  try:                      # tente:
+    letra = next(iterador)  # variável letra recebe o próximo item do iterador 
+    print(letra)            # imprima letra
+  except StopIteration:     # se houver um erro de StopIteration, faça:
+    break                   # pare o loop
+
+# Resultado:
+# P
+# y
+# t
+# h
+# o
+# n
 
 # Que é exatamente a mesma coisa que:
 
-for letra in texto: # para cada letra na string texto, faça:
-  print(letra) # imprima letra
+for letra in texto:         # para cada letra na variável texto, faça:
+  print(letra)              # imprima letra
 
+# Resultado:
+# P
+# y
+# t
+# h
+# o
+# n

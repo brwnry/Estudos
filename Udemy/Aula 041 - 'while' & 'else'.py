@@ -1,13 +1,22 @@
 # 'while' & 'else'
 
-string = 'Valor qualquer' # str
+string = 'Valor qualquer'     # variável string recebe 'Valor qualquer'
 
-i = 0 # int
-while i < len(string): # enquanto i for menor que o tamanho da string, faça:
-  letra = string[i] # letra recebe string[i]
-  print(letra ) # imprima letra
-  i += 1 # i recebe i + 1
-else: # se não, faça:
-  print('Fim da string') # imprima 'Fim da string'
+i = 0                        # variável i recebe 0
+while i < len(string):       # enquanto i for menor que o tamanho de string, faça:
+  letra = string[i]          # variável letra recebe o caractere da string string na posição i
   
+  if letra == ' ':           # se letra for igual a ' ', faça:
+    break                    # pare o loop
   
+  print(letra )              # imprima letra
+  i += 1                     # some 1 a i
+else:                        # se não, faça:
+  print('Fim da string')     # imprima 'Fim da string'
+
+# Resultado:
+# V
+# a
+# l
+# o
+# r

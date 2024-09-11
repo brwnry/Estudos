@@ -1,4 +1,14 @@
 # Operadores de atribuição com operadores aritméticos.
+# O valor de uma variável pode ser modificado através de uma atribuição.
+
+# Exemplo:
+
+contador = 1                # variável contador recebe 1
+
+contador = contador + 1     # variável contador recebe contador mais 1
+print(contador)             # imprima contador mostrando 2
+
+# Exemplos de operadores aritméticos:
 
 a = 10 # int
 
