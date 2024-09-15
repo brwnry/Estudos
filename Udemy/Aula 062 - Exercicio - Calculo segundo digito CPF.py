@@ -34,5 +34,3 @@ digito2 = (soma * 10) % 11                  # Calcula o segundo dígito verifica
 digito2 = digito2 if digito2 <= 9 else 0    # Se o digito2 for menor ou igual a 9, o digito2 será o próprio digito2, senão será 0
 
 print(f'O dígito verificador do CPF é: {digito1}{digito2}')
-
-gfj
