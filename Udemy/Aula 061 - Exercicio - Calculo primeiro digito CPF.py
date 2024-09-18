@@ -102,8 +102,8 @@ contador_regressivo = 10                                           # contador_re
 
 resultado_digito_1 = 0                                             # resultado_digito_1 recebe 0
 for digito_1 in nove_digitos:                                      # Para cada número na lista criada:
-    resultado_digito_1 += int(digito_1) * contador_regressivo_1    # resultado_digito_1 recebe ele mesmo + o contador regressivo de 10 a 0
-    contador_regressivo_1 -= 1                                     # contador_regressivo_1 é decrementado
+    resultado_digito_1 += int(digito_1) * contador_regressivo    # resultado_digito_1 recebe ele mesmo + o contador regressivo de 10 a 0
+    contador_regressivo -= 1                                     # contador_regressivo_1 é decrementado
 digito_1 = (resultado_digito_1 * 10) % 11                          # digito_1 recebe o resto da divisão inteira de resultado_digito_
 digito_1 = digito_1 if digito_1 <= 9 else 0                        # Se digito_1 for menor ou igual a 9, o digito_1 será o próprio digito_1, senão será 0
 print(digito_1)                                                    # Exibindo o digito_1

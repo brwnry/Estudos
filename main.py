@@ -1,15 +1,35 @@
-for i in range(10):                        # para cada número na sequência de 0 a 10, faça:
+import random                                           
 
-  if i == 2:                                 # se i for igual a 2, faça:
-    print('i é 2, pulando...')               # imprima 'i é 2, pulando...'
-    continue                                 # pule para a próxima iteração do loop
+nove_digitos = ''                                       
 
-  if i == 8:                                 # se i for igual a 8, faça:
-    print('i é 8, seu else não executará')   # imprima 'i é 8, seu else não executará'
-    break                                    # pare o loop
+for i in range(9):                                         
+    nove_digitos += str(random.randint(0, 9))           
 
-for j in range(1, 3):                      # para cada número de 1 a 3, faça:
-  print(i, j)                              # imprima i e j
 
-else:                                      # se não, faça:
-  print('For completo com sucesso!') 
+lista_num = nove_digitos[:9]                            
+contador = 10                                          
+soma = 0                                                
+
+for num in lista_num:                                  
+    num = int(num)                                     
+    resultado = num * contador                         
+    soma = resultado + soma                            
+    contador -= 1                                      
+
+digito1 = (soma * 10) % 11                              
+digito1 = digito1 if digito1 <= 9 else 0                
+
+contador = 11                                           
+soma = 0                                                
+
+for num in lista_num:                                   
+    num = int(num)                                      
+    resultado = num * contador                          
+    soma = resultado + soma                             
+    contador -= 1                                       
+
+digito2 = (soma * 10) % 11                             
+digito2 = digito2 if digito2 <= 9 else 0               
+
+cpf = str(nove_digitos) + str(digito1) + str(digito2)   
+print(f'O número de CPF é: {cpf}')                      
