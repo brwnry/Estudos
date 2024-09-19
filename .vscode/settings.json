@@ -1,4 +1,5 @@
 {
     "editor.fontFamily": "'Cascadia Code Light'",
-    "editor.fontSize": 16
+    "editor.fontSize": 16,
+    "python.languageServer": "Pylance"
 }

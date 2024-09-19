@@ -7,10 +7,10 @@ Por padrão, as funções retornam None, caso não seja especificado o valor de 
 '''
 
 # Exemplo 1:
-def saudacao():                 # função saudação sem parâmetros
+def greeting():                 # função saudação sem parâmetros
     print('Olá, mundo!')        # imprime uma mensagem na tela
 
-saudacao()                      # chama a função saudacao
+greeting()                      # chama a função saudacao
 
 # Resultado: Olá, mundo!
 
@@ -23,10 +23,10 @@ saudacao('João')                # chama a função saudacao passando o nome 'Jo
 # Resultado: Olá, João!
 
 # Exemplo 3:
-def soma(a, b):                 # função soma com dois parâmetros
+def sum(a, b):                 # função soma com dois parâmetros
     return a + b                # retorna a soma dos dois parâmetros
 
-print(soma(2, 3))               # chama a função soma passando os parâmetros 2 e 3 e imprime o resultado na tela
+print(sum(2, 3))               # chama a função soma passando os parâmetros 2 e 3 e imprime o resultado na tela
 
 # Resultado: 5
 
