@@ -23,5 +23,3 @@ recursao(0)
 # E assim por diante, até que n seja maior ou igual a 10.
 # Quando n é maior ou igual a 10, a função recursao não é chamada novamente e a pilha de chamadas é liberada.
 # O programa termina.
-
-

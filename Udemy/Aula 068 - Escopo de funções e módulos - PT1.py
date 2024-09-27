@@ -49,4 +49,8 @@ def escopo():               # Função escopo
 print(x)                    # Mostra o valor de x
 escopo()                    # Chama a função escopo
 
-# Resultado: 1 30 10 10
+# Resultado: 1
+#           20 30
+#           10
+#           1
+#           10

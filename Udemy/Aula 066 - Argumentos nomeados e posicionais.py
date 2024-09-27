@@ -40,3 +40,12 @@ soma(y=5, x=3)  # Argumentos nomeados
 
 # Resultado:
 # 8
+
+def soma(x, y):
+    print(f'{x=}, {y=}'}', '|', 'x + y =', x + y)'
+
+soma(3, 5)      # Argumentos posicionais
+soma(y=5, x=3)  # Argumentos nomeados
+
+# Resultado:
+# x=3, y=5 | x + y = 8
